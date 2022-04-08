@@ -4,5 +4,5 @@ channels:
 dependencies:
   - libgcc==5.2.0
   - rdkit
-  - pip3:
+  - pip:
     - numpy
