@@ -52,6 +52,6 @@ Download and unzip contents from https://github.com/Tanny2109/Bioinformatics-Par
 ###  Launch the app
 
 ```
-streamlit run app.py
+streamlit run molecular-descriptor-app.py
 ```
 # Everytime you need to launch the app, please activate the solubility environment created earlier.
