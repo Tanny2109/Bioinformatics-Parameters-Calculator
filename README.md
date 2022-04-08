@@ -10,26 +10,34 @@ With the help of this [awesome discussion over in the Streamlit Discuss board](h
 To recreate this web app on your own computer, do the following.
 
 ### Create conda environment
-Firstly, we will create a conda environment called *ml*
+Firstly, we will create a conda environment called *solubility*
 ```
-conda create -n solubility python=3.7.9
+conda create -n solubility python=3.8
 ```
 Secondly, we will login to the *solubility* environement
 ```
 conda activate solubility
+```
+To deactivate the environment
+```
+conda deactivate
 ```
 ### Install prerequisite libraries
 
 Download requirements.txt file
 
 ```
-wget https://raw.githubusercontent.com/dataprofessor/solubility-app/main/requirements.txt
+wget https://raw.githubusercontent.com/Tanny2109/Bioinformatics-Parameters-Calculator/main/requirements.txt
 
 ```
 
 Pip install libraries
 ```
 pip install -r requirements.txt
+```
+If the above code gives error while downloading and installing certain packages, use following code to install them separately using the same versoin of libraries given in requirements.txt file
+```
+pip install pandas=1.1.3 
 ```
 
 Install rdkit
@@ -39,10 +47,11 @@ conda install -c conda-forge rdkit rdkit
 
 ###  Download and unzip contents from GitHub repo
 
-Download and unzip contents from https://github.com/dataprofessor/solubility-app/archive/main.zip
+Download and unzip contents from https://github.com/Tanny2109/Bioinformatics-Parameters-Calculator/archive/refs/heads/main.zip
 
 ###  Launch the app
 
 ```
 streamlit run app.py
 ```
+# Everytime you need to launch the app, please activate the solubility environment created earlier.
