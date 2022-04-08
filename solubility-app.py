@@ -106,7 +106,7 @@ def generate2(smiles, verbose=False):
 # Page Title
 ######################
 
-image = Image.open('solubility-logo.jpg')
+image = Image.open('WebApp-Logo.jpg')
 
 st.image(image, use_column_width=True)
 
