@@ -2,7 +2,7 @@
 
 Launch the web app (Click on the icon):
 
-[![Streamlit App](https://share.streamlit.io/tanny2109/bioinformatics-parameters-calculator/main/molecular-descriptor-app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/tanny2109/bioinformatics-parameters-calculator/main/molecular-descriptor-app.py)
 
 With the help of this [awesome discussion over in the Streamlit Discuss board](https://discuss.streamlit.io/t/can-i-add-conda-package-in-requirements-txt/8062/4) and the awesome [GitHub repo from iwatobipen](https://github.com/iwatobipen/chem_streamlit/) for ideas in getting rdkit installed via conda.
 
