@@ -1,6 +1,6 @@
 name: solubility
 channels:
-  conda-forge
+  - conda-forge
 dependencies:
-  libgcc=5.2.0
-  rdkit
+  - libgcc=5.2.0
+  - rdkit
